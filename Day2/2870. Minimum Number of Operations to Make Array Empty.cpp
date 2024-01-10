@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int minOperations(vector<int>& nums) {
         int n = nums.size();
         unordered_map<int, int> mp; // map to store freq of each element
